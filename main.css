@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 20px;
+}
+
+html, body {
+    height: 100%;
+    font-family: Geneva;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 30px;
+    line-height: 50px;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+
+    background-image: url('6.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionOne {
+    background-image: url('public/images/notes-wall-board.jpg');
+}
+
+.contentOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 48px;
+
+    background-color: rgba(0, 0, 0, 0.50);
+    height: 100%;
+    text-align: center;
+}
+
+.sectionTwo {
+    background-image: url('public/images/documentation.jpg');
+}
+
+.sectionThree {
+    background-image: url('public/images/books.jpg');
+}
+
+.subSection {
+    height: 50%;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.10);
+}
+
+.subSectionHeader {
+  font-size: 24px;
+  text-align: center;
+}
+
+.books {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 280px;
+  border: 1px solid #cfcfcf;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.book Header {
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.bookSource {
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.parallax  {
+    /* The image used */
+    background-image: url('public/images/notes-wall-board.jpg');
+
+    /* Set a specific height */
+    height: 500px;
+    /* height: 100%; */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed
+ * Some mobile devices have a problem with background-attachment: fixed.
+ * However, you can use media queries to turn off the parallax effect for mobile device
+ */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 10px 20px;
+  text-align: center;
+}
