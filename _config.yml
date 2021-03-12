@@ -1,8 +1,8 @@
 title: Learn with Me # Shown in header on pages with full_logo: true
-short_logo: P. # Shown in header on all pages by default unless full_logo: true is set
+short_logo: Learn with Me # Shown in header on all pages by default unless full_logo: true is set
 description: > # The description for your site
-  Learning Blogs and
-url: "https://learn-with-me.github.io/" # Site base URL
+  Learning, Blogs and Development handy tools
+url: "https://learn-with-me.github.io" # Site base URL
 
 author:
   name: Anshul Goel

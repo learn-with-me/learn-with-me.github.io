@@ -1,28 +1,26 @@
-- name: Development Setup Handbook # Project name, also used as heading
+- name: Notes - Java # Project name, also used as heading
   id: p1 # Project id, must be unique amongst the projects
   img_src: /assets/img/connectpie-page.png # Optional image
   description_less: > # Description shown at all times
-    <p>This part of the project description is visible at all times.</p> 
+    <p>Java & SpringBoot related notes</p>
   description_more: > # Description shown only when the project card is expanded
     <p>This part is only seen when you click on the project card.</p> 
 
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://github.com/learn-with-me/notes-java" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags: [tag1, tag2] # A list of tags
+  tags: [docs, tag1] # A list of tags
 
-- name: Pudina Fresh Jekyll Theme
+- name: Notes Docker
   id: pf
-  img_src: 
+  img_src:
   description_less: >
-    <p>A minimal yet feature-rich Jekyll theme made for personal websites and blogs.</p>
+    <p>Day-to-day uses of Docker and Docker Compose</p>
   description_more: >
-    <p>This site uses <a href="https://github.com/ritijjain/pudhina-fresh">Pudhina Fresh</a> theme.</p>
+    <a href="https://github.com/learn-with-me/Notes-Docker" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-    <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="https://ritijjain.com/2020/09/12/pudhina-fresh.html" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-
-  tags: [jekyll, open-source]
+  tags: [docs, docker, open-source]
 
 - name: Development Setup Handbook
   id: p2
@@ -33,21 +31,21 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://github.com/learn-with-me/Development-Setup-Handbook" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
-  tags: [docs, tag3]
+  tags: [docs, tag1]
 
-- name: Project Three
+- name: Technical Interview Preparation Guide
   id: p3
   img_src: /assets/img/weatherpie-page.png
   description_less: >
-    <p>Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.</p>
+    <p>Quick guide for references</p>
   description_more: >
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+    <a href="https://github.com/learn-with-me/Interview-Preparation-Guide" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
     <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
 
   tags: [tag2, tag4]
